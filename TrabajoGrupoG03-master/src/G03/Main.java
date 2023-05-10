@@ -1,5 +1,6 @@
 package G03;
-
+/*Emma Bonilla 1ºA
+* DNI: 47445317C*/
 public class Main {
     public static void main(String[] args) {
         Hub H=new Hub();
