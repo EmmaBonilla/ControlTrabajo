@@ -46,5 +46,13 @@ public class Puerto {
         }
         return constructor.toString();
     }
+    /*AÑADIDO EN EXAMEN:*/
+    public String BuscaPorPrioridad(int prior){
+        String aux=new String("");
+        for(int i=0;i<3;i++){//FOR PARA RECORRER LOS TRES HUBS
+            aux=aux+ Puerto[i].BusquedaPorPrioridadEnHub(prior,i+1)+"\n";
+        }
+        return aux;
     }
+}
 
